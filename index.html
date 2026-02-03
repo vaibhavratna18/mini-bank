@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Bank Mini System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Online Bank Mini System</h1>
+
+<section>
+    <h2>Create Account</h2>
+    <input type="text" id="holderName" placeholder="Account Holder Name">
+    <input type="number" id="initialBalance" placeholder="Initial Balance">
+    <label>
+        <input type="checkbox" id="kycStatus"> KYC Verified
+    </label>
+    <button onclick="createAccount()">Create Account</button>
+</section>
+
+<section>
+    <h2>Deposit Money</h2>
+    <input type="number" id="depositAcc" placeholder="Account Number">
+    <input type="number" id="depositAmt" placeholder="Amount">
+    <button onclick="depositMoney()">Deposit</button>
+</section>
+
+<section>
+    <h2>Withdraw Money</h2>
+    <input type="number" id="withdrawAcc" placeholder="Account Number">
+    <input type="number" id="withdrawAmt" placeholder="Amount">
+    <button onclick="withdrawMoney()">Withdraw</button>
+</section>
+
+<section>
+    <h2>Transfer Money</h2>
+    <input type="number" id="senderAcc" placeholder="Sender Account Number">
+    <input type="number" id="receiverAcc" placeholder="Receiver Account Number">
+    <input type="number" id="transferAmt" placeholder="Amount">
+    <button onclick="transferMoney()">Transfer</button>
+</section>
+
+<section>
+    <h2>Account Listing</h2>
+    <ul id="accountList"></ul>
+</section>
+
+<section>
+    <h2>Output</h2>
+    <p id="output"></p>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/service.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

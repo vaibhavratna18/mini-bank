@@ -1,0 +1,108 @@
+:root {
+    --primary: #1e40af;
+    --secondary: #2563eb;
+    --success: #16a34a;
+    --error: #dc2626;
+    --bg: #f1f5f9;
+    --card: #ffffff;
+    --border: #e5e7eb;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --radius: 10px;
+    --shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+    padding: 40px;
+    color: var(--text);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--primary);
+    font-size: 2.4rem;
+}
+
+section {
+    background: var(--card);
+    max-width: 650px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: var(--primary);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    font-size: 0.95rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.2);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    color: var(--muted);
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: var(--secondary);
+    color: white;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+#accountList {
+    list-style: none;
+}
+
+#accountList li {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background: #f9fafb;
+    font-size: 0.9rem;
+}
+
+#output {
+    padding: 12px;
+    border-left: 5px solid var(--primary);
+    background: #f8fafc;
+    font-weight: 600;
+}
