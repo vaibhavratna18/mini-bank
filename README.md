@@ -111,17 +111,17 @@ This structure improves maintainability and clarity.
 ---
 
 ## Live Deployment
-Live URL: ADD_LIVE_DEPLOYMENT_URL_HERE
+Live URL: https://mini-bqnk.netlify.app/
 
 ---
 
 ## GitHub Repository
-Repository Link: ADD_GITHUB_REPOSITORY_LINK_HERE
+Repository Link:https://github.com/vaibhavratna18/mini-bank
 
 ---
 
 ## Demo Video
-Demo Video Link: ADD_DEMO_VIDEO_LINK_HERE
+Demo Video Link: (https://drive.google.com/file/d/1NOh-5Z2sgG_lYbUSRXJbkT0_FT5d1h5r/view?usp=drive_link)
 
 ---
 
